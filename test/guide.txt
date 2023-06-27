@@ -1,6 +1,6 @@
 run this class using below command.
 1) javac MysqlCon.java
-2) java -cp .:/home/anilabha/Downloads/image_docker/test/mysql-connector-java-8.0.29.jar MysqlCon
+2) java -cp .:/mysql-image/test/mysql-connector-java-8.0.29.jar MysqlCon
 
 Run the docker image using below command:
 [anilabha@fedora my-mysql]$ docker run -d -p 3306:3306 --name my-mysql \
