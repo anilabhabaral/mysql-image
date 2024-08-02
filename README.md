@@ -1,4 +1,4 @@
-# mysql-docker test image
+# mysql image for testing
 
 Clone Repo:
 ```
