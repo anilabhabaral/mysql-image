@@ -1,2 +1,1 @@
-INSERT INTO employees (first_name, last_name) 
-VALUES ('Lorenz', 'Vanthillo');
+INSERT INTO employees VALUES (1,'Anilabha', 'Baral');
