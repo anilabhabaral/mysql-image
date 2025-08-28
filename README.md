@@ -1,5 +1,20 @@
 # mysql image for testing
 
+Run the below command to Install Docker
+
+```
+sudo apt update
+sudo apt install docker.io
+```
+ 
+Grant a specific(Example ubuntu) user permission to docker deamon.
+
+```
+sudo su - 
+usermod -aG docker ubuntu
+systemctl restart docker
+```
+
 Clone Repo:
 ```
 git clone https://github.com/anilabhabaral/mysql-image.git
